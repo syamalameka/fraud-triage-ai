@@ -1,0 +1,8 @@
+Method,Precision@10,Precision@40,Recall@40,Frauds_Caught_in_40,Frauds_Per_100_in_40,Precision@100,Recall@100,Frauds_Caught_in_100
+Random Ranking,0.1,0.05,0.01,2,5.0,0.03,0.015,3
+Original Paper Distance,1.0,1.0,0.2,40,100.0,0.84,0.42,84
+Corrected Distance (Mahalanobis),1.0,0.675,0.135,27,67.5,0.33,0.165,33
+Classifier Probability,1.0,1.0,0.2,40,100.0,1.0,0.5,100
+Isolation Forest,1.0,0.95,0.19,38,95.0,0.59,0.295,59
+Multi-center Distance,1.0,1.0,0.2,40,100.0,1.0,0.5,100
+Proposed LightGBM (Ours),1.0,1.0,0.2,40,100.0,1.0,0.5,100
